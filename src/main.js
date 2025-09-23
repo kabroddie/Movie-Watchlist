@@ -6,7 +6,7 @@ class MovieWatchlistApp {
     this.watchlistPage = document.getElementById('watchlist-page');
     this.movieIds = new Set();
     this.apiKey = '700adaac';
-    this.baseURL = 'http://www.omdbapi.com/';
+    this.baseURL = 'https://www.omdbapi.com/';
     this.fallbackImage = './poster-unavailable.png';
     
     this.init();
