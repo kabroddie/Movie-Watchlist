@@ -1,13 +1,13 @@
-import { defineConfig } from 'vite';
-import { resolve } from 'path';
+// vite.config.js
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        watchlist: resolve(__dirname, 'watchlist.html'),
-      },
-    },
-  },
-});
+        main: 'index.html',
+        watchlist: 'watchlist.html'
+      }
+    }
+  }
+})

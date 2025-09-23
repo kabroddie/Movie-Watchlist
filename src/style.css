@@ -63,6 +63,7 @@ header::before {
   font-size: 1rem;
 }
 
+
 .watchlist-link:visited {
   color: white;
   text-decoration: none;
@@ -142,6 +143,19 @@ header::before {
   color: #2E2E2F;
 }
 
+.try-again {
+  gap: 0.5em;
+}
+
+.try-again > h2 {
+  font-size: 1rem;
+}
+
+.try-again > h3 {
+  font-size: 1rem;
+  color: #2E2E2F;
+}
+
 .empty-watchlist > h2{
   font-size: 1rem;
   color: #787878;
@@ -154,6 +168,7 @@ header::before {
 .add-movies-container > i,
 .add-movies-container > a {
   font-size: 0.8rem;
+  margin: 0;
 }
 
 .movie-container {
@@ -234,6 +249,15 @@ header::before {
   line-height: 1.5em;
   font-size: 0.65em;
   color: #a5a5a5;
+}
+
+.watchlist-container > .movie-selected{
+  color: #787878;
+  
+}
+
+.watchlist-container > .movie-selected:hover{
+  cursor: not-allowed;
 }
 
 
