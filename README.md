@@ -8,4 +8,4 @@ One of the solo projects I created during my learning in Scrimba's Fullstack Dev
 
 Here is the link for Movie Watchlist:
 
-[mov-watchlist.netlify.app](mov-watchlist.netlify.app)
+[https://mov-watchlist.netlify.app](https://mov-watchlist.netlify.app)
